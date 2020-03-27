@@ -2,6 +2,7 @@ version: "3"
 
 services:
     node:
+        build: node/.
         image: jrmalladi/opi.node.app
         ports:
             - 3000
